@@ -41,7 +41,7 @@ function Process.new(type, on_response, on_exit)
     self.args = {
       tsserver_provider:get_executable_path():absolute(),
       "--stdio",
-      "--locale", "en",
+      "--locale", "zh-CN",
       "--useInferredProjectPerProjectRoot",
       "--validateDefaultNpmLocation",
       "--noGetErrOnBackgroundUpdate",
